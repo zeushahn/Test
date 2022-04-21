@@ -1,0 +1,13 @@
+{
+	"rt": "OK",
+	"rtmsg": "SUCCESS",
+    "item": {
+        "name": "갤럭시 S6",
+        "type": "삼성",
+        "img": "http://localhost:8080/img/GalaxyS6.png",
+        "price": {
+        	"fixed": 1000000,
+        	"sale": 850000
+        }
+    }
+}
