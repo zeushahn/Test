@@ -1,0 +1,7 @@
+{
+	"student": [
+			{"name":"철수","math":85,"kor":80,"eng":70},
+			{"name":"영이","math":92,"kor":70,"eng":85},
+			{"name":"순이","math":61,"kor":100,"eng":72}
+	]
+}
