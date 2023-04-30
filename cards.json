@@ -1,0 +1,28 @@
+{"results" :
+    [
+        {
+        "image" : "https://zeushahn.github.io/Test/images/swift-button.jpg",
+        "category" : "Swift",
+        "heading" : "Drawing a Border with Rounded Corners",
+        "author" : "Apple"
+        },
+        {
+        "image" : "https://zeushahn.github.io/Test/images/macos-programming.jpg",
+        "category" : "macOS",
+        "heading" : "Building a Simple Editing App",
+        "author" : "Google"
+        },
+        {
+        "image" : "https://zeushahn.github.io/Test/images/flutter-app.jpg",
+        "category" : "Flutter",
+        "heading" : "Building a Complex Layout with Flutter",
+        "author" : "Oracle"
+        },
+        {
+        "image" : "https://zeushahn.github.io/Test/images/natural-language-api.jpg",
+        "category" : "iOS",
+        "heading" : "What's New in Natural Language API",
+        "author" : "IBM"
+        }       
+    ]
+}
