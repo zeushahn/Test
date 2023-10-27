@@ -1,6 +1,6 @@
 {
-    "name": "web_publish_app",
-    "short_name": "web_publish_app",
+    "name": "responsive_layout_01_app",
+    "short_name": "responsive_layout_01_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
