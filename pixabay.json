@@ -3,12 +3,12 @@
         {
             "title":"PixaBay Image 검색",
             "hint":"검색어를 입력하세요",
-            "color": Colors.green
+            "color": "Colors.green"
         },
         {
             "title":"Image Searching on Pixabay",
             "hint":"Please enter a search term",
-            "color": Colors.amber
+            "color": "Colors.amber"
         }
     ]
 }
