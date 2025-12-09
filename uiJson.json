@@ -36,7 +36,6 @@
                     "type": "text",
                     "args": {"text": "클릭"}
                   },
-                  // 표현식: 여기서 button_clicked()의 "리턴값"이 onPressed에 들어감
                   "onPressed": "\${button_clicked()}"
                 }
               }
