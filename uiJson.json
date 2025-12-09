@@ -36,7 +36,7 @@
                     "type": "text",
                     "args": {"text": "클릭"}
                   },
-                  "onPressed": "\${button_clicked()}"
+                  "onPressed": "${button_clicked()}"
                 }
               }
             ]
