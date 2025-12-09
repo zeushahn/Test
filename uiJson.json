@@ -1,49 +1,52 @@
-{
-  "type": "scaffold",
-  "args": {
-    "appBar": {
-      "type": "app_bar",
+{"results" :
+  [
+    {
+      "type": "scaffold",
       "args": {
-        "centerTitle" : true,
-        "title": {
-          "type": "text",
-          "args": {"text": "JSON UI Demo"}
-        }
-      }
-    },
-    "body": {
-      "type": "center",
-      "args": {
-        "child": {
-          "type": "column",
+        "appBar": {
+          "type": "app_bar",
           "args": {
-            "mainAxisAlignment": "center",
-            "children": [
-              {
-                "type": "text",
-                "args": {
-                  "text": "이 화면은 JSON으로 생성되었습니다!"
-                }
-              },
-              {
-                "type": "sized_box",
-                "args": {"height": 20}
-              },
-              {
-                "type": "elevated_button",
-                "args": {
-                  "child": {
+            "centerTitle" : true,
+            "title": {
+              "type": "text",
+              "args": {"text": "JSON UI Demo"}
+            }
+          }
+        },
+        "body": {
+          "type": "center",
+          "args": {
+            "child": {
+              "type": "column",
+              "args": {
+                "mainAxisAlignment": "center",
+                "children": [
+                  {
                     "type": "text",
-                    "args": {"text": "클릭"}
+                    "args": {
+                      "text": "이 화면은 JSON으로 생성되었습니다!"
+                    }
                   },
-                  // 표현식: 여기서 button_clicked()의 "리턴값"이 onPressed에 들어감
-                  "onPressed": "\${button_clicked()}"
-                }
+                  {
+                    "type": "sized_box",
+                    "args": {"height": 20}
+                  },
+                  {
+                    "type": "elevated_button",
+                    "args": {
+                      "child": {
+                        "type": "text",
+                        "args": {"text": "클릭"}
+                      },
+                      // 표현식: 여기서 button_clicked()의 "리턴값"이 onPressed에 들어감
+                      "onPressed": "\${button_clicked()}"
+                    }
+                  }
+                ]
               }
-            ]
+            }
           }
         }
       }
     }
-  }
-}
+  ]
