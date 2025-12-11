@@ -23,16 +23,6 @@
                         "mainAxisAlignment" : "center",
                         "children" : [
                             {
-                                "type": "divider",
-                                "args": {
-                                    "height": 20,
-                                    "thickness": 2,
-                                    "color": "#9E9E9E",
-                                    "indent": 16,
-                                    "endIndent": 16
-                                }
-                            },                            
-                            {
                                 "type" : "text",
                                 "args" : {
                                     "text" : "유비"
@@ -51,16 +41,6 @@
                                 }
                             },
                             {
-                                "type": "divider",
-                                "args": {
-                                    "height": 20,
-                                    "thickness": 2,
-                                    "color": "#9E9E9E",
-                                    "indent": 16,
-                                    "endIndent": 16
-                                }
-                            },                            
-                            {
                                 "type" : "padding",
                                 "args" : {
                                     "padding": {
@@ -70,9 +50,15 @@
                                     "bottom": 0
                                     },
                                     "child" : {
-                                        "type" : "text",
-                                        "args" : {
-                                            "text" : "조조"
+                                        "type": "text",
+                                        "args": {
+                                            "text": "조조",
+                                            "style": {
+                                            "color": "#0000FF",
+                                            "fontSize": 28,
+                                            "fontWeight": "bold",
+                                            "letterSpacing": 5
+                                            }
                                         }
                                     }
                                 }
@@ -88,17 +74,7 @@
                                 "args" : {
                                     "text" : "동탁"
                                 }
-                            },
-                            {
-                                "type": "divider",
-                                "args": {
-                                    "height": 20,
-                                    "thickness": 2,
-                                    "color": "#9E9E9E",
-                                    "indent": 16,
-                                    "endIndent": 16
-                                }
-                            }                            
+                            }
                         ]
                     }
                 }
