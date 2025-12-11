@@ -1,0 +1,74 @@
+{
+    "type" : "scaffold",
+    "args" :{
+        "appBar" : {
+            "type" : "app_bar",
+            "args" : {
+                "title" : {
+                    "type" : "text",
+                    "args" : {
+                        "text" : "Text Exercise 01"
+                    }
+                }
+            },
+            "backgroundColor" : "#00FF00",
+            "foregroundColor" : "#FFFFFF"
+        }
+    },
+    "body" : {
+        "type" : "center",
+        "args" : {
+            "child" : {
+                "type" : "column",
+                "args" : {
+                    "mainAxisAlignment" : "center",
+                    "children" : [
+                        {
+                            "type" : "text",
+                            "args" : {
+                                "text" : "유비"
+                            }
+                        },
+                        {
+                            "type" : "text",
+                            "args" : {
+                                "text" : "관우"
+                            }
+                        },
+                        {
+                            "type" : "text",
+                            "args" : {
+                                "text" : "장비"
+                            }
+                        },
+                        {
+                            "type" : "padding",
+                            "args" : {
+                                "padding" : 16,
+                                "child" : {
+                                    "type" : "text",
+                                    "args" : {
+                                        "text" : "조조"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type" : "text",
+                            "args" : {
+                                "text" : "여포"
+                            }
+                        },
+                        {
+                            "type" : "text",
+                            "args" : {
+                                "text" : "동탁"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+
+    }
+}
