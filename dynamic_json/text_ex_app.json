@@ -23,6 +23,16 @@
                         "mainAxisAlignment" : "center",
                         "children" : [
                             {
+                                "type": "divider",
+                                "args": {
+                                    "height": 20,
+                                    "thickness": 2,
+                                    "color": "#9E9E9E",
+                                    "indent": 16,
+                                    "endIndent": 16
+                                }
+                            },                            
+                            {
                                 "type" : "text",
                                 "args" : {
                                     "text" : "유비"
@@ -40,6 +50,16 @@
                                     "text" : "장비"
                                 }
                             },
+                            {
+                                "type": "divider",
+                                "args": {
+                                    "height": 20,
+                                    "thickness": 2,
+                                    "color": "#9E9E9E",
+                                    "indent": 16,
+                                    "endIndent": 16
+                                }
+                            },                            
                             {
                                 "type" : "padding",
                                 "args" : {
@@ -68,7 +88,17 @@
                                 "args" : {
                                     "text" : "동탁"
                                 }
-                            }
+                            },
+                            {
+                                "type": "divider",
+                                "args": {
+                                    "height": 20,
+                                    "thickness": 2,
+                                    "color": "#9E9E9E",
+                                    "indent": 16,
+                                    "endIndent": 16
+                                }
+                            }                            
                         ]
                     }
                 }
