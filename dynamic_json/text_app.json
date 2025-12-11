@@ -6,7 +6,9 @@
       "args": {
         "title": {
           "type": "text",
-          "args": { "text": "삼국지" }
+          "args": {
+            "text": "삼국지"
+          }
         },
         "centerTitle": true,
         "backgroundColor": "#FFC107",
@@ -22,20 +24,28 @@
             "mainAxisAlignment": "center",
             "children": [
               {
-                "type": "text",
-                "args": { "text": "유비" }
+                "type": "padding",
+                "args": {
+                  "padding": 16,
+                  "child": {
+                    "type": "text",
+                    "args": {
+                      "text": "유비"
+                    }
+                  }
+                }
               },
               {
-                "type": "sized_box",
-                "args": { "height": 50 }
+                "type": "text",
+                "args": {
+                  "text": "관우"
+                }
               },
               {
                 "type": "text",
-                "args": { "text": "관우" }
-              },
-              {
-                "type": "text",
-                "args": { "text": "장비" }
+                "args": {
+                  "text": "장비"
+                }
               }
             ]
           }
