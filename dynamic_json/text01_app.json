@@ -1,0 +1,69 @@
+{
+    "type" : "scaffold",
+    "args" : {
+        "appBar" : {
+            "type" : "app_bar",
+            "args" : {
+                "title" : {
+                    "type" : "text",
+                    "args" : {
+                        "text" : "TextRow"
+                    }
+                },
+                "centerTitle" : true,
+                "backgroundColor" : "#0000FF",
+                "foregroundColor" : "#FFFFFF"
+            }
+        },
+        
+        "body" : {
+            "type" : "center",
+            "args" : {
+                "child" : {
+                    "type": "row",
+                    "args": {
+                        "mainAxisAlignment" : "center",
+                        "children": [
+                            {
+                                "type": "padding",
+                                "args" : {
+                                    "padding" : 16,
+                                    "child" : {
+                                        "type" : "text",
+                                        "args" : {
+                                            "text" : "James"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "padding",
+                                "args" : {
+                                    "padding" : 16,
+                                    "child" : {
+                                        "type" : "text",
+                                        "args" : {
+                                            "text" : "Cathy"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "padding",
+                                "args" : {
+                                    "padding" : 16,
+                                    "child" : {
+                                        "type" : "text",
+                                        "args" : {
+                                            "text" : "Kenny"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
