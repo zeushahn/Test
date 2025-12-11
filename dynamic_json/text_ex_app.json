@@ -43,7 +43,12 @@
                             {
                                 "type" : "padding",
                                 "args" : {
-                                    "padding" : 16,
+                                    "padding": {
+                                    "left": 0,
+                                    "top": 30,
+                                    "right": 0,
+                                    "bottom": 0
+                                    },
                                     "child" : {
                                         "type" : "text",
                                         "args" : {
