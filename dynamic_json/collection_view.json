@@ -1,18 +1,188 @@
 {
-  "type": "column",
+  "type": "scaffold",
   "args": {
-    "mainAxisAlignment": "center",
-    "children": [
-      {
-        "type": "text",
-        "args": {
-          "text": "${imageName}",
-          "style": {
-            "fontSize": 12,
-            "fontWeight": "bold"
+    "appBar": {
+      "type": "app_bar",
+      "args": {
+        "title": {
+          "type": "text",
+          "args": {
+            "text": "Flower Garden (JSON Grid)"
           }
-        }
+        },
+        "centerTitle": true
       }
-    ]
+    },
+    "body": {
+      "type": "grid_view",
+      "args": {
+        "gridDelegate": {
+          "type": "sliver_grid_delegate_with_fixed_cross_axis_count",
+          "args": {
+            "crossAxisCount": 2,
+            "crossAxisSpacing": 5.0,
+            "mainAxisSpacing": 5.0
+          }
+        },
+        "children": [
+          {
+            "type": "gesture_detector",
+            "args": {
+              "onTap": "${open_detail(imageName: 'flower_01.png')}",
+              "child": {
+                "type": "card",
+                "args": {
+                  "child": {
+                    "type": "center",
+                    "args": {
+                      "child": {
+                        "type": "text",
+                        "args": {
+                          "text": "flower_01.png",
+                          "style": {
+                            "fontSize": 12,
+                            "fontWeight": "bold"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "gesture_detector",
+            "args": {
+              "onTap": "${open_detail(imageName: 'flower_02.png')}",
+              "child": {
+                "type": "card",
+                "args": {
+                  "child": {
+                    "type": "center",
+                    "args": {
+                      "child": {
+                        "type": "text",
+                        "args": {
+                          "text": "flower_02.png",
+                          "style": {
+                            "fontSize": 12,
+                            "fontWeight": "bold"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "gesture_detector",
+            "args": {
+              "onTap": "${open_detail(imageName: 'flower_03.png')}",
+              "child": {
+                "type": "card",
+                "args": {
+                  "child": {
+                    "type": "center",
+                    "args": {
+                      "child": {
+                        "type": "text",
+                        "args": {
+                          "text": "flower_03.png",
+                          "style": {
+                            "fontSize": 12,
+                            "fontWeight": "bold"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "gesture_detector",
+            "args": {
+              "onTap": "${open_detail(imageName: 'flower_04.png')}",
+              "child": {
+                "type": "card",
+                "args": {
+                  "child": {
+                    "type": "center",
+                    "args": {
+                      "child": {
+                        "type": "text",
+                        "args": {
+                          "text": "flower_04.png",
+                          "style": {
+                            "fontSize": 12,
+                            "fontWeight": "bold"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "gesture_detector",
+            "args": {
+              "onTap": "${open_detail(imageName: 'flower_05.png')}",
+              "child": {
+                "type": "card",
+                "args": {
+                  "child": {
+                    "type": "center",
+                    "args": {
+                      "child": {
+                        "type": "text",
+                        "args": {
+                          "text": "flower_05.png",
+                          "style": {
+                            "fontSize": 12,
+                            "fontWeight": "bold"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "gesture_detector",
+            "args": {
+              "onTap": "${open_detail(imageName: 'flower_06.png')}",
+              "child": {
+                "type": "card",
+                "args": {
+                  "child": {
+                    "type": "center",
+                    "args": {
+                      "child": {
+                        "type": "text",
+                        "args": {
+                          "text": "flower_06.png",
+                          "style": {
+                            "fontSize": 12,
+                            "fontWeight": "bold"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
   }
 }
