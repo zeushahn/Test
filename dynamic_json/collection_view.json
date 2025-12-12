@@ -17,9 +17,11 @@
       "type": "grid_view",
       "args": {
         "delegate": {
-          "crossAxisCount": 2,
-          "crossAxisSpacing": 5.0,
-          "mainAxisSpacing": 5.0
+          "fixedCrossAxisCount": {
+            "crossAxisCount": 2,
+            "crossAxisSpacing": 5.0,
+            "mainAxisSpacing": 5.0
+          }
         },
         "children": [
           {
