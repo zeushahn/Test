@@ -16,13 +16,10 @@
     "body": {
       "type": "grid_view",
       "args": {
-        "gridDelegate": {
-          "type": "sliver_grid_delegate_with_fixed_cross_axis_count",
-          "args": {
-            "crossAxisCount": 2,
-            "crossAxisSpacing": 5.0,
-            "mainAxisSpacing": 5.0
-          }
+        "delegate": {
+          "crossAxisCount": 2,
+          "crossAxisSpacing": 5.0,
+          "mainAxisSpacing": 5.0
         },
         "children": [
           {
