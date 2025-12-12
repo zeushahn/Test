@@ -1,9 +1,9 @@
 {
     "type": "set_value",
-    "args" : {
-        "values" : {
-            "images" : {
-                "values" : [
+    "args": {
+        "values": {
+            "images": {
+                "values": [
                     "flower_01.png",
                     "flower_02.png",
                     "flower_03.png",
@@ -13,27 +13,29 @@
                 ]
             },
             "itemTemplate": {
-                "type" : "gesture_detector",
-                "args" : {
-                    "onTap" : "${open_detail(imageName: value)}",
-                    "child" : {
-                        "type" : "card",
-                        "args" : {
-                            "child" : {
-                                "type" : "column",
-                                "args" : {
-                                    "mainAxisAlignment" : "center",
-                                    "children" : [
+                "type": "gesture_detector",
+                "args": {
+                    "onTap": "${open_detail(imageName: value)}",
+                    "child": {
+                        "type": "card",
+                        "args": {
+                            "child": {
+                                "type": "column",
+                                "args": {
+                                    "mainAxisAlignment": "center",
+                                    "children": [
                                         {
-                                            "type" : "asset_image",
-                                            "args" : {
-                                                "image" : "images/${value}",
-                                                "width" : 100
+                                            "type": "asset_image",
+                                            "args": {
+                                                "image": "images/${value}",
+                                                "width": 100
                                             }
                                         },
                                         {
-                                            "type" : "sized_box",
-                                            "args" : {"height" : 8}
+                                            "type": "sized_box",
+                                            "args": {
+                                                "height": 8
+                                            }
                                         },
                                         {
                                             "type": "text",
@@ -54,9 +56,9 @@
             }
         }
     },
-    "child" : {
-        "type" : "grid_view",
-        "args" : {
+    "child": {
+        "type": "grid_view",
+        "args": {
             "gridDelegate": {
                 "type": "sliver_grid_delegate_with_fixed_cross_axis_count",
                 "args": {
@@ -65,7 +67,7 @@
                     "mainAxisSpacing": 5.0
                 }
             },
-            "children": "${for_each(images['value'], itemTemplate)}"
+            "children": "${for_each(images['values'], 'itemTemplate')}"
         }
     }
 }
