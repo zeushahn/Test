@@ -1,73 +1,18 @@
 {
-    "type": "set_value",
-    "args": {
-        "values": {
-            "images": {
-                "values": [
-                    "flower_01.png",
-                    "flower_02.png",
-                    "flower_03.png",
-                    "flower_04.png",
-                    "flower_05.png",
-                    "flower_06.png"
-                ]
-            },
-            "itemTemplate": {
-                "type": "gesture_detector",
-                "args": {
-                    "onTap": "${open_detail(imageName: value)}",
-                    "child": {
-                        "type": "card",
-                        "args": {
-                            "child": {
-                                "type": "column",
-                                "args": {
-                                    "mainAxisAlignment": "center",
-                                    "children": [
-                                        {
-                                            "type": "asset_image",
-                                            "args": {
-                                                "image": "images/${value}",
-                                                "width": 100
-                                            }
-                                        },
-                                        {
-                                            "type": "sized_box",
-                                            "args": {
-                                                "height": 8
-                                            }
-                                        },
-                                        {
-                                            "type": "text",
-                                            "args": {
-                                                "text": "${value}",
-                                                "style": {
-                                                    "fontSize": 12,
-                                                    "fontWeight": "bold"
-                                                }
-                                            }
-                                        }
-                                    ]
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "child": {
-        "type": "grid_view",
+  "type": "column",
+  "args": {
+    "mainAxisAlignment": "center",
+    "children": [
+      {
+        "type": "text",
         "args": {
-            "gridDelegate": {
-                "type": "sliver_grid_delegate_with_fixed_cross_axis_count",
-                "args": {
-                    "crossAxisCount": 2,
-                    "crossAxisSpacing": 5.0,
-                    "mainAxisSpacing": 5.0
-                }
-            },
-            "children": "${for_each(images['values'], 'itemTemplate')}"
+          "text": "${imageName}",
+          "style": {
+            "fontSize": 12,
+            "fontWeight": "bold"
+          }
         }
-    }
+      }
+    ]
+  }
 }
